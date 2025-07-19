@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import praw
 from datetime import datetime
 
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     posts = fetch_reddit_posts("ethereum", limit=5)
     for post in posts:
         print(post)
-=======
+
 import praw
 from datetime import datetime
 
@@ -68,4 +68,4 @@ if __name__ == "__main__":
     posts = fetch_reddit_posts("ethereum", limit=5)
     for post in posts:
         print(post)
->>>>>>> 39ef0634114b10de3a3ac524d795525f7ba964b4
+
